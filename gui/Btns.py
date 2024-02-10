@@ -57,7 +57,7 @@ class EqBtn(Btn):
         super().__init__(value,input_box)
         self.clicked.connect(self.getResult)
     def getResult(self):
-        Btn.Text=str(eval(Btn.Text))
+        Btn.Text=str(eval(self.input_box.text()))
         self.input_box.setText(Btn.Text)
         print(Btn.Text)
 class RemoveBtn(Btn):
