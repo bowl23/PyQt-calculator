@@ -1,7 +1,5 @@
-from PyQt5.QtGui import QFont
-import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QGridLayout, QPushButton, QLineEdit, QVBoxLayout, QSizePolicy
-
+from PyQt5.QtGui import QFont
 
 class Mywindow(QWidget):
     def __init__(self):
@@ -23,8 +21,4 @@ class Mywindow(QWidget):
         self.setLayout(main_layout)
 
 
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    w = Mywindow()
-    w.show()
-    app.exec()
+
