@@ -1,3 +1,2 @@
 # PyQt-calculator
-
-这是一个python写的科学计算器
+只是一个pyqt练手，计算功能并不完善
